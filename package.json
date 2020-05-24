@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mehmetgspace/kepler-22b/issues"
   },
-  "homepage": "https://github.com/mehmetgspace/kepler-22b#readme"
+  "homepage": "https://github.com/mehmetgspace/kepler-22b#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
