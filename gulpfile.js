@@ -7,4 +7,9 @@ function style() {
     .pipe(gulp.dest('./dist/'))
 }
 
+function watch() {
+  gulp.watch('./scss/**/*.scss', style);
+}
+
 exports.style = style;
+exports.watch = watch;
