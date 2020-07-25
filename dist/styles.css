@@ -1,3 +1,44 @@
+* {
+  box-sizing: border-box; }
+  *:before, *:after {
+    box-sizing: border-box; }
+
 html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, strong, ol, ul, li, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, figure, figcaption, footer, header, nav, section, video {
   margin: 0;
   padding: 0; }
+
+.k-container {
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto; }
+
+.k-row {
+  display: flex;
+  flex-wrap: wrap; }
+  .k-row__col {
+    padding: 16px; }
+  .k-row__col--1 {
+    flex: 0 0 8.33333%; }
+  .k-row__col--2 {
+    flex: 0 0 16.66667%; }
+  .k-row__col--3 {
+    flex: 0 0 25%; }
+  .k-row__col--4 {
+    flex: 0 0 33.33333%; }
+  .k-row__col--5 {
+    flex: 0 0 41.66667%; }
+  .k-row__col--6 {
+    flex: 0 0 50%; }
+  .k-row__col--7 {
+    flex: 0 0 58.33333%; }
+  .k-row__col--8 {
+    flex: 0 0 66.66667%; }
+  .k-row__col--9 {
+    flex: 0 0 75%; }
+  .k-row__col--10 {
+    flex: 0 0 83.33333%; }
+  .k-row__col--11 {
+    flex: 0 0 91.66667%; }
+  .k-row__col--12 {
+    flex: 0 0 100%; }

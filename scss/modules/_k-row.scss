@@ -1,0 +1,15 @@
+.k-row {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__col {
+    padding: 16px;
+  }
+
+  @for $i from 1 through $grid-columns {
+    &__col--#{$i} {
+      flex: 0 0 100% / $grid-columns * $i;
+    }
+  }
+
+}
