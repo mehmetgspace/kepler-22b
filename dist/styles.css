@@ -57,5 +57,5 @@ body {
     flex: 0 0 100%; }
 
 .k-example__title {
-  margin-top: 30px;
-  margin-bottom: 30px; }
+  padding-top: 30px;
+  padding-bottom: 30px; }
