@@ -1,0 +1,13 @@
+.k-progress {
+  background-color: $color-grey;
+  border-radius: 4px;
+
+  &__bar {
+    background-color: $primary-color;
+    width: 50%;
+    height: 28px;
+    border-radius: 4px;
+    transition: all .5s ease;
+  }
+
+}

@@ -13,6 +13,16 @@ html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, st
   padding-right: 15px;
   margin: 0 auto; }
 
+.k-progress {
+  background-color: #EEEEEE;
+  border-radius: 4px; }
+  .k-progress__bar {
+    background-color: #FF7700;
+    width: 50%;
+    height: 28px;
+    border-radius: 4px;
+    transition: all .5s ease; }
+
 .k-row {
   display: flex;
   flex-wrap: wrap; }
