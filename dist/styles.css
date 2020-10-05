@@ -71,3 +71,12 @@ body {
 
 .k-example__subtitle {
   margin-bottom: 15px; }
+
+.k-form-item__label {
+  display: block;
+  margin-bottom: 5px; }
+
+.k-form-item__control {
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif; }
