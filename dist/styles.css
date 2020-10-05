@@ -16,6 +16,10 @@ body {
   padding-right: 15px;
   margin: 0 auto; }
 
+.k-card {
+  background-color: #eee;
+  padding: 15px; }
+
 .k-progress {
   background-color: #EEEEEE;
   border-radius: 4px; }
