@@ -60,6 +60,14 @@ body {
   .k-row__col--12 {
     flex: 0 0 100%; }
 
+.k-example__section {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee; }
+
 .k-example__title {
   padding-top: 30px;
   padding-bottom: 30px; }
+
+.k-example__subtitle {
+  margin-bottom: 15px; }

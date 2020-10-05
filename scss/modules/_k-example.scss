@@ -1,8 +1,18 @@
 .k-example {
 
+  &__section {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee;
+  }
+
   &__title {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  &__subtitle {
+    margin-bottom: 15px;
   }
 
 }
