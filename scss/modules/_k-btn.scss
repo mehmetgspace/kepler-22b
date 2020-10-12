@@ -1,0 +1,15 @@
+.k-btn {
+  display: inline-block;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+
+  &--primary {
+    background-color: $primary-color;
+    color: $color-white;
+  }
+
+}

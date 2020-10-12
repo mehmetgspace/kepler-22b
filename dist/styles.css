@@ -10,6 +10,18 @@ html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, st
 body {
   font-family: "Poppins", sans-serif; }
 
+.k-btn {
+  display: inline-block;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer; }
+  .k-btn--primary {
+    background-color: #FF7700;
+    color: #FFFFFF; }
+
 .k-container {
   max-width: 1170px;
   padding-left: 15px;
