@@ -92,3 +92,7 @@ body {
   padding: 10px;
   font-size: 16px;
   font-family: "Poppins", sans-serif; }
+
+.k-tag {
+  background-color: #eee;
+  padding: 5px; }
