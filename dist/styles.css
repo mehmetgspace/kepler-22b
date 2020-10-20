@@ -21,6 +21,36 @@ body {
   .k-btn--primary {
     background-color: #FF7700;
     color: #FFFFFF; }
+  .k-btn--orange {
+    background-color: #FF7700;
+    color: #FFFFFF;
+    transition: all .3s ease-in-out; }
+    .k-btn--orange:hover {
+      background-color: #994700; }
+  .k-btn--green {
+    background-color: #5EFC8D;
+    color: #FFFFFF;
+    transition: all .3s ease-in-out; }
+    .k-btn--green:hover {
+      background-color: #04f04a; }
+  .k-btn--pink {
+    background-color: #EE4266;
+    color: #FFFFFF;
+    transition: all .3s ease-in-out; }
+    .k-btn--pink:hover {
+      background-color: #b91134; }
+  .k-btn--violet {
+    background-color: #2A1E5C;
+    color: #FFFFFF;
+    transition: all .3s ease-in-out; }
+    .k-btn--violet:hover {
+      background-color: #07050f; }
+  .k-btn--blue {
+    background-color: #0A68FF;
+    color: #FFFFFF;
+    transition: all .3s ease-in-out; }
+    .k-btn--blue:hover {
+      background-color: #003fa3; }
 
 .k-container {
   max-width: 1170px;

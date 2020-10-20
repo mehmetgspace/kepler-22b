@@ -12,4 +12,18 @@
     color: $color-white;
   }
 
+  // alternate colors
+  @each $color, $value in $kepler22b-colors {
+    &--#{$color} {
+      background-color: $value;
+      color: $color-white;
+      transition: all .3s ease-in-out;
+
+      &:hover {
+        background-color: darken($value, 20%);
+      }
+
+    }
+  }
+
 }
