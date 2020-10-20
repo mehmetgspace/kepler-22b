@@ -10,6 +10,14 @@ $color-grey: #EEEEEE;
 $primary-color: $color-orange;
 $secondary-color: $color-violet;
 
+$kepler22b-colors: (
+  "orange": $color-orange,
+  "green": $color-green,
+  "pink": $color-pink,
+  "violet": $color-violet,
+  "blue": $color-blue
+);
+
 // Grid
 $grid-columns: 12;
 $page-max-width: 1170px;
