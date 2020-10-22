@@ -7,11 +7,6 @@
   border: 1px solid transparent;
   cursor: pointer;
 
-  &--primary {
-    background-color: $primary-color;
-    color: $color-white;
-  }
-
   // alternate colors
   @each $color, $value in $kepler22b-colors {
     &--#{$color} {

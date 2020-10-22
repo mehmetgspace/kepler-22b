@@ -20,7 +20,22 @@ body {
   cursor: pointer; }
   .k-btn--primary {
     background-color: #FF7700;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    transition: all .3s ease-in-out; }
+    .k-btn--primary:hover {
+      background-color: #994700; }
+  .k-btn--secondary {
+    background-color: #2A1E5C;
+    color: #FFFFFF;
+    transition: all .3s ease-in-out; }
+    .k-btn--secondary:hover {
+      background-color: #07050f; }
+  .k-btn--tertiary {
+    background-color: #0A68FF;
+    color: #FFFFFF;
+    transition: all .3s ease-in-out; }
+    .k-btn--tertiary:hover {
+      background-color: #003fa3; }
   .k-btn--orange {
     background-color: #FF7700;
     color: #FFFFFF;
