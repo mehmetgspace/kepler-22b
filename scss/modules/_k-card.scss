@@ -1,4 +1,11 @@
 .k-card {
   background-color: #eee;
   padding: 15px;
+
+  &__image-container {}
+
+  &__image {
+    width: 100%;
+  }
+
 }

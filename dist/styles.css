@@ -76,6 +76,8 @@ body {
 .k-card {
   background-color: #eee;
   padding: 15px; }
+  .k-card__image {
+    width: 100%; }
 
 .k-progress {
   background-color: #EEEEEE;
